@@ -19,3 +19,8 @@ Alternatively, you can use ngrok to mirror and test the test link webpage on you
 
 We leverage the open source RecordRTC javascript library to read audio from microphone source connected to the browser.
 We then convert raw audio bytes to 16-bit signed integer values (16-bit signed PCM audio format) and send it via a websocket connection to the ins8.ai API endpoint.
+
+
+# Credits
+
+RecordRTC - https://github.com/muaz-khan/RecordRTC
