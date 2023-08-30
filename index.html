@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <style>
+            body {
+                margin: 20px;
+                font-family: Arial, sans-serif;
+            }
+
+            @media only screen and (max-width: 480px) {
+                body {
+                    margin: 10px;
+                }
+            }
+        </style>    
+    </head>
+
+    <body>
+        <title> Mobile Demo </title>
+        <h3> ins8.ai on mobile </h3>
+
+        <button id="btn-start-recording">Start Recording</button>
+        <button id="btn-stop-recording" disabled>Stop Recording</button>
+
+        <p id="transcription"> Transcript: </p>
+
+    </body>
+
+    <script src="RecordRTC.min.js"></script>
+    <script src="ins8ai_mobile.js"></script>
+
+</html>
